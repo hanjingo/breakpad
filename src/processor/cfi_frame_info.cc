@@ -161,7 +161,7 @@ bool CFIRuleParser::Parse(const string& rule_set) {
         expression_ += ' ';
       expression_ += token;
     }
-    token = strtok_r(NULL, token_breaks, &cursor);
+    token = strtok_r(nullptr, token_breaks, &cursor);
   }
 }
 
